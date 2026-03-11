@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Users, Search, Filter, Plus, TrendingUp, UserPlus, Zap } from 'lucide-react';
 import { PlayerCard } from '../components/player-card';
 import { CreateMatchModal, MatchData } from '../components/create-match-modal';
-import { players, SkillLevel } from '../data/players';
+import { players, SkillLevel } from '../utils/mockData/players';
 
 export function MatchmakingPage() {
   const [selectedSport, setSelectedSport] = useState('All');

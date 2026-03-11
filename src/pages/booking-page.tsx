@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router';
 import { useState } from 'react';
 import { MapPin, Star, Calendar, Clock, CreditCard, Info } from 'lucide-react';
-import { turfs } from '../data/turfs';
+import { turfs } from '../utils/mockData/turfs';
 
 export function BookingPage() {
   const { turfId } = useParams();

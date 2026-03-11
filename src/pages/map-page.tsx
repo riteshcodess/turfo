@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Search, MapIcon, Navigation, Maximize2 } from 'lucide-react';
 import { MapPin } from '../components/map-pin';
 import { MapFilters } from '../components/map-filters';
-import { mapTurfs } from '../data/map-data';
+import { mapTurfs } from '../utils/mockData/map-data';
 
 export function MapPage() {
   const [selectedSport, setSelectedSport] = useState('All');

@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router';
 import { MapPin, Star, Calendar, Clock, Users, Shield, Zap, Wifi, Car, Coffee, Camera, Heart, Share2, ChevronLeft, ChevronRight } from 'lucide-react';
-import { turfs } from '../data/turfs';
+import { turfs } from '../utils/mockData/turfs';
 import { useState } from 'react';
 
 export function TurfDetailsPage() {

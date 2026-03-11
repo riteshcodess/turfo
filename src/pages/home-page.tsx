@@ -1,7 +1,7 @@
 import { MapPin, Calendar, Clock, Search, TrendingUp, Trophy, Zap, Users } from 'lucide-react';
 import { TurfCard } from '../components/turf-card';
 import { SportCard } from '../components/sport-card';
-import { turfs } from '../data/turfs';
+import { turfs } from '../utils/mockData/turfs';
 import { Link } from 'react-router';
 
 export function HomePage() {

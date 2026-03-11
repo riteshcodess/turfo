@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Calendar, Clock, MapPin, CreditCard, Heart, TrendingUp, CheckCircle, XCircle, Star, MessageSquare, Edit, Trash2 } from 'lucide-react';
-import { mockBookings, turfs } from '../data/turfs';
+import { mockBookings, turfs } from '../utils/mockData/turfs';
 import { TurfCard } from '../components/turf-card';
 import { Link } from 'react-router';
 

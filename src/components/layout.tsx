@@ -3,7 +3,7 @@ import { Menu, X, Undo2, Redo2, Search, User, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import { Footer } from './footer';
 import { LoginModal } from './login-modal';
-import logo from '../../assets/90fb72376fb333816749802f330ac0785cab26cb.png';
+import logo from '../assets/90fb72376fb333816749802f330ac0785cab26cb.png';
 
 export function Layout() {
   const location = useLocation();

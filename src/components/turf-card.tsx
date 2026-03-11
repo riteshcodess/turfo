@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Star, MapPin, Heart } from 'lucide-react';
-import { Turf } from '../data/turfs';
+import { Turf } from '../utils/mockData/turfs';
 import { useState } from 'react';
 
 interface TurfCardProps {

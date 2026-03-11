@@ -1,5 +1,5 @@
 import { MapPin, Star, Clock, Trophy, UserPlus, MessageCircle } from 'lucide-react';
-import { Player, SkillLevel } from '../data/players';
+import { Player, SkillLevel } from '../utils/mockData/players';
 
 interface PlayerCardProps {
   player: Player;

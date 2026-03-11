@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Star, MapPin as MapPinIcon, ArrowRight } from 'lucide-react';
-import { MapTurf, AvailabilityStatus } from '../data/map-data';
+import { MapTurf, AvailabilityStatus } from '../utils/mockData/map-data';
 import { Link } from 'react-router';
 
 interface MapPinProps {

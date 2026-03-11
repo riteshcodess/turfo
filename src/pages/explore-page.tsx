@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Filter, SlidersHorizontal } from 'lucide-react';
 import { TurfCard } from '../components/turf-card';
-import { turfs } from '../data/turfs';
+import { turfs } from '../utils/mockData/turfs';
 
 export function ExplorePage() {
   const [selectedSport, setSelectedSport] = useState<string>('All');

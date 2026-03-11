@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Trophy, Filter, Plus, Target, Award, TrendingUp, Users, Zap } from 'lucide-react';
 import { TournamentCard } from '../components/tournament-card';
 import { Leaderboard } from '../components/leaderboard';
-import { tournaments, leaderboards } from '../data/tournaments';
+import { tournaments, leaderboards } from '../utils/mockData/tournaments';
 
 export function TournamentsPage() {
   const [selectedSport, setSelectedSport] = useState('All');

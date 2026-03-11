@@ -1,5 +1,5 @@
 import { Trophy, TrendingUp, Award } from 'lucide-react';
-import { LeaderboardEntry } from '../data/tournaments';
+import { LeaderboardEntry } from '../utils/mockData/tournaments';
 
 interface LeaderboardProps {
   entries: LeaderboardEntry[];

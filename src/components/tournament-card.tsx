@@ -1,5 +1,5 @@
 import { Trophy, MapPin, Users, Calendar, DollarSign, Clock, Info } from 'lucide-react';
-import { Tournament, TournamentStatus } from '../data/tournaments';
+import { Tournament, TournamentStatus } from '../utils/mockData/tournaments';
 import { Link } from 'react-router';
 
 interface TournamentCardProps {
